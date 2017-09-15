@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import { Card, CardTitle } from 'react-materialize';
 
-class ProjectCard extends Component{
-  render(){
-    return(
-      <Card className='small'
-        header={<CardTitle image='./compare2.jpg'>Card Title</CardTitle>}
-        actions={[<a href='#'>This is a Link</a>]}>
-        I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
-      </Card>
-    )
-  }
+const ProjectCard = ({title, description, technologies}) =>{
+  return(
+    <Card className='small'
+      header={<CardTitle image='./compare2.jpg'>{title}</CardTitle>}
+      actions={[<a href='#'>This is a Link</a>]}>
+      {description}
+    </Card>
+  )
 }
 
 export default ProjectCard

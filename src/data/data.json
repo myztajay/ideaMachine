@@ -1,0 +1,24 @@
+{
+  "projects":[
+    {
+      "name": "Comparative",
+      "description":"Comparative gathers a crowd source opinion on anything that can be captured in a photo. This project was part of a 7 day sprint. Where I developed user stories, modeled databases and implemented Rails technology stack on Heroku.",
+      "technologies": ["Html", "Css", "Materialize", "Ruby", "Rails", "Javascript", "Oauth", "Devise", "Postgres", "Heroku", "Git", "Github", "jQuery"] 
+    },
+    {
+      "name": "AppSpark",
+      "description":"A Kick Starter-esc app, to help find developers collaborate on projects. Users can post projects, request developers, enter scope of work, and more. This project was a 7 day sprint and uses join tables to map relationships, many assorted gems, AWS storage and utilized the github API to enhance user app and user profiles.",
+      "technologies": ["Html", "Css", "Materialize", "Ruby", "Rails", "Javascript", "Oauth", "Devise", "Postgres", "Heroku", "Git", "Github", "jQuery"] 
+    },
+    {
+      "name": "Simon",
+      "description":"This project was a 7 day sprint and was designed to test my understanding of functional programming. During this project I utilizes multiple resources such as Classmates, Stack Overflow and Github. I was able to build this game completely with just functional programming.",
+      "technologies": ["Html", "Css", "Materialize", "Ruby", "Rails", "Javascript", "Oauth", "Devise", "Postgres", "Heroku", "Git", "Github", "jQuery"] 
+    }
+    ,{
+      "name": "League of Legends dashboard",
+      "description":"A React client with a node backend that utilized Chartjs to create stunning visualization of data from the League of Legends API",
+      "technologies": ["Html", "Css", "Materialize", "Ruby", "Rails", "Javascript", "Oauth", "Devise", "Postgres", "Heroku", "Git", "Github", "jQuery"] 
+    }
+  ]
+}
