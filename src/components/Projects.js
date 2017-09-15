@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
+import ProjectCard from '../common/ProjectCard'
+import './Projects.css';
 
 class Projects extends Component{
   render(){
     return(
-      <h1> These are my Projects</h1>
+      <div className='main'>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </div>
     )
   }
 }
