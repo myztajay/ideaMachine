@@ -8,6 +8,15 @@
   margin: 10px auto;  
 }
 
+.card.small .card-image, .card.medium .card-image, .card.large .card-image{
+  height: 240px;
+}
+img{
+  height: 100%;
+}
+.card.small{
+  height: 400px;
+}
 /*@media (min-width: 768px){
   .card{
     max-width: 300px;
